@@ -1,0 +1,23 @@
+h2 {
+    background: orange;
+    color: blue;
+}
+p {
+    background: antiquewhite;
+    color: brown;
+}
+
+ul {
+    background: beige;
+    color: crimson;
+}
+
+h1 {
+    background: chocolate;
+    color: black;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
