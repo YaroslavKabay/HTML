@@ -18,8 +18,6 @@ body {
 
 }
 .head {
-    height: 200;
-    width: 100;
     text-align: center;
     font-family: Cambria;
 
@@ -28,8 +26,6 @@ body {
 }
 
 .paragraph {
-    height: 200;
-    width: 100;
     text-align: center;
     font-family: Cambria;
     color: gray;
