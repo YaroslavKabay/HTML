@@ -38,3 +38,10 @@ body {
     margin: 50px 400px;
 }
 
+txt {
+    color: #ffffff;
+    font-family: Candara;
+    text-align: center ;
+    width: 100px;
+
+}
