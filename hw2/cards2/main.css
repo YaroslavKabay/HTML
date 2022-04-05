@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+.mainbox {
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    height: 300px;
+    width: 250px;
+    background: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+
+
+}
+.icon {
+
+}
+.fa-star{
+
+    text-align: center;
+    display: block;
+    color: #989898;
+    font-size: 25px;
+}
+.fa-location-dot {
+    text-align: center;
+    display: block;
+    color: #989898;
+    font-size: 25px;
+}
+.fa-fire {
+    text-align: center;
+    display: block;
+    color: #989898;
+    font-size: 25px;
+}
+.fa-earth-americas {
+    text-align: center;
+    display: block;
+    color: #989898;
+    font-size: 25px;
+}
+.title {
+    color: #ce9a72;
+    text-align: center;
+    font-family: Cambria, serif;
+    font-size: 22px;
+}
+.txt {
+    color: #989898;
+    text-align: center;
+    font-family: Candara;
+}
+.link {
+    height: 40px;
+    background: #55c2b5;
+    margin-left: 70px;
+    margin-right: 70px;
+
+    color: white;
+    font-family: Cambria, serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+.link2 {
+    margin-top: 10px;
+
+}
