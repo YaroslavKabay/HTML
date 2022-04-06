@@ -44,4 +44,6 @@ body {
     border: solid 1px black;
     margin-left: 20px;
     margin-right: 20px;
+    box-sizing: border-box;
+    padding-top: 6px;
  }

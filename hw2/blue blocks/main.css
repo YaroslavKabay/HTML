@@ -6,8 +6,11 @@ body {
     height: 200px;
     width: 600px;
     background: #2269ba;
+    font-size: 50px;
 
-    padding: 50px;
+    text-align: center;
+
+    padding: 70px;
     box-sizing: border-box;
     margin: 50px 400px;
 
@@ -26,13 +29,19 @@ body {
     height: 100px;
     width: 150px;
     background: #16457a;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 .bloc3 {
     height: 300px;
     width: 600px;
     background: #2269ba;
+    text-align: center;
+    font-size: 60px;
 
-    padding: 50px;
+    padding: 90px;
     box-sizing: border-box;
 
     margin: 50px 400px;
