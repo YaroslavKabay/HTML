@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+.mainbox {
+
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.card {
+
+    height: 400px;
+    width: 250px;
+    border: solid 1px black;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+
+}
+.head {
+    text-align: center;
+    font-family: Cambria;
+
+    font-size: 23px;
+    margin-top: 80px;
+}
+
+.paragraph {
+    text-align: center;
+    font-family: Cambria;
+    color: gray;
+    font-size: 15px;
+    margin-top: 80px;
+}
+.button {
+    height: 40px;
+    width: 200px;
+
+    text-align: center;
+    font-family: Cambria;
+    font-size: 18px;
+    margin-top: 80px;
+
+    border: solid 1px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding-top: 6px;
+}
+.circle {
+
+    height: 100px;
+    width: 100px;
+    background: white;
+    box-sizing: border-box;
+    position: absolute;
+    top: -52px;
+    left: 78px;
+    border-radius: 50px;
+    border: solid 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-display {
+
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: chocolate;
+
+}
+
+.fa-circle-dot {
+
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: chocolate;
+
+}
+
+.fa-martini-glass-empty {
+
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: chocolate;
+}
+
+
