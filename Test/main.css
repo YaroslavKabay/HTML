@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.graydude {
+    background: #cdd7e0;
+    height: 600px;
+    width: 950px;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+
+}
+
+.blackdude {
+
+    height: 300px;
+    width: 100%;
+    background: #102b3e;
+}
+.littledudes3  {
+    background: crimson;
+
+    height: 120px;
+    width: 500px;
+    position: absolute;
+    top: 390px;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+
+}
+.littledude {
+    background: #6964e1;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+.menu {
+
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.battery {
+
+    height: 60px;
+    width: 150px;
+    background: #102b3e;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.rightbttn {
+    height: 60px;
+    width: 180px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.fa-magnifying-glass {
+
+    font-size: 30px;
+    margin-left: 30px;
+    color: #6964e1;
+}
+.fa-bars {
+
+    font-size: 30px;
+    margin-right: 30px;
+    color: #6964e1;
+
+}
