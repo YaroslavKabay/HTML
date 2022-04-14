@@ -28,14 +28,15 @@ let bool2 = 5 === '5';
 
 //3)
 
-let person = FirstName + LastName + MiddleName ;
-let FirstName = 'Yaroslav';
-let LastName = 'Kabay';
-let MiddleName = 'Volodumurovuch';
+let firstName = 'Yaroslav';
+let lastName = 'Kabay';
+let middleName = 'Volodumurovuch';
+let person = firstName + ' ' + lastName + ' ' + middleName;
+
 console.log(person)
 // console.log(`${FirstName} ${LastName} ${MiddleName}`);
 
-//5)
+//6)
 
 // let books = [
 //     {'homo deus', 340, 'nonfiction', ['Yuval', 'Noah', 'Haari'] }
