@@ -5,7 +5,7 @@
 // // let digit = 1;
 // // let digit = -3;
 //
-// if (digit != 0) {
+// if (digit !== 0) {
 //     console.log('true')}
 // else {
 //     console.log('false')
@@ -67,6 +67,9 @@
 //     case '7' :
 //         console.log('sunday');
 //         break;
+//     default:
+//         console.log('else')
+
 // }
 
 
@@ -74,8 +77,8 @@
 //         Потрібно знайти та вивести максимальне число з тих двох .
 //         Також потрібно врахувати коли введені рівні числа.
 
-// let a = prompt('1number');
-// let b = prompt('2number')
+// let a = +prompt('1number');
+// let b = +prompt('2number')
 //
 // if ( a < b ) {
 //     console.log(b); }
