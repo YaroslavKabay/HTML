@@ -111,13 +111,14 @@
 // }
 // array(1,'lalala', true);
 
+
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ.
 // Для кожного об'єкту окремий блок.
 
 // function iterator (array) {
 //
 //    for (const item of array) {
-//       document.write(`<div> `${item}`</div>`);
+//       document.write(`<div> ${item.id} ${item.name} ${item.age} </div>`);
 //
 //    }
 //
@@ -130,17 +131,17 @@
 //
 //    },
 //    {
-//       d: 2,
+//       id: 2,
 //       name: 'asya',
 //       age: 25
 //    },
 //    {
-//       d: 3,
+//       id: 3,
 //       name: 'vasy',
 //       age: 24
 //    },
 //    {
-//       d: 4,
+//       id: 4,
 //       name: 'vasya',
 //       age: 21
 //    },
@@ -148,12 +149,25 @@
 //
 // iterator (users) ;
 
-// idk how to manage it  :(
+
 
 // - створити функцію яка повертає найменьше число з
 // масиву
 
-// idk how to manage it too :(
+// let arr = [ 1, 2, 3, 7];
+//
+// function minnum (array) {
+//     let min = array[0];
+//     for (const item of array) {
+//         if (item < min) {
+//             min=item
+//         }
+//         return min
+//
+//     }
+// }
+//
+// console.log(minnum(arr));
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його.
 // Приклад [1,2,10]->13
