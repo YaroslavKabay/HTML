@@ -276,3 +276,44 @@
 // ];
 //
 // console.log(fn(arr));
+
+
+
+
+
+
+
+
+// additional 7 task js 5
+// let a = 2;
+// let b = 7;
+// let arr =[1,a,3,4,b,6];
+// let fn = (array) => {
+//     let newArr = [];
+//     if (a < b) {
+//         for (let i = a; i < b-1; i++) {
+//             newArr.push(array[i]);
+//         }
+//     }
+//     if (b > a) {
+//         for (let i = b-1; i < 0; i--) {
+//             newArr.push(array[i]);
+//         }
+//     }
+//     return newArr
+// }
+// console.log(fn(arr));
+//
+// function sortArray(array) {
+//     let temp = 0;
+//     for (let i = 0; i < array.length; i++) {
+//         for (let j = i; j < array.length; j++) {
+//             if (array[j] < array[i]) {
+//                 temp = array[j];
+//                 array[j] = array[i];
+//                 array[i] = temp;
+//             }
+//         }
+//     }
+//     return array;
+// }
