@@ -143,3 +143,12 @@
 // [0,1,2,3,4] => [1,2,3,4,0]
 // [0,0,1,0]   => [1,0,0,0]
 
+
+
+// this.info = function info() {
+//     for (const item in this) {
+//         console.log(`${item}  - ${this[item]}`);
+//     }
+// }
+
+
