@@ -205,6 +205,7 @@ let coursesArray = [
 
 for (const course of coursesArray) {
     let div = document.createElement('div');
+    div.classList.add (`tagName`)
     let title = document.createElement('h3');
     let double = document.createElement('div');
     let month = document.createElement('div');
@@ -234,4 +235,11 @@ for (const course of coursesArray) {
     div.appendChild(double);
     div.appendChild(ul);
     document.body.appendChild(div);
+}
+
+let tag1 = document.getElementsByClassName(`tagName`);
+console.log(tag1);
+for (const item of tag1) {
+    item.style.backgroundColor = `silver`
+    item.style.display
 }
