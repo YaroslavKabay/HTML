@@ -96,33 +96,33 @@
 // другий - кількість ячеєк, третій вмиіст ячеєк.
 // При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
-
-let input1 = document.createElement('input');
-let input2 = document.createElement('input');
-let input3 = document.createElement('input');
-let button = document.createElement('button');
-button.innerText = 'Click';
-document.body.append(input1, input2, input3, button);
-
-button.addEventListener( 'click', function () {
-    tr = input1.value;
-    td = input2.value;
-    text = input3.value;
-    function fn (row, column, text) {
-        let table = document.createElement('table');
-        document.body.appendChild(table);
-
-        for (let i = 0; i < tr; i++) {
-            let tr = document.createElement('tr');
-            table.appendChild(tr);
-            for (let j = 0; j < td; j++) {
-                let td = document.createElement('td');
-                td.innerText = `${text}`;
-                td.style.border = '1px solid black';
-                tr.appendChild(td);
-            }
-        }
-    }
-    fn(tr,td,text)
-})
-
+//
+// let input1 = document.createElement('input');
+// let input2 = document.createElement('input');
+// let input3 = document.createElement('input');
+// let button = document.createElement('button');
+// button.innerText = 'Click';
+// document.body.append(input1, input2, input3, button);
+//
+// button.addEventListener( 'click', function () {
+//     tr = input1.value;
+//     td = input2.value;
+//     text = input3.value;
+//     function fn (row, column, text) {
+//         let table = document.createElement('table');
+//         document.body.appendChild(table);
+//
+//         for (let i = 0; i < tr; i++) {
+//             let tr = document.createElement('tr');
+//             table.appendChild(tr);
+//             for (let j = 0; j < td; j++) {
+//                 let td = document.createElement('td');
+//                 td.innerText = `${text}`;
+//                 td.style.border = '1px solid black';
+//                 tr.appendChild(td);
+//             }
+//         }
+//     }
+//     fn(tr,td,text)
+// })
+//
