@@ -10,18 +10,18 @@
 //     });
 
 //or
-let {name, age} = document.forms.form;
-let key = 'key';
-let btn = document.getElementById('button');
-
-let save = (name, age) => {
-    let obj = {name, age};
-    localStorage.setItem(key, JSON.stringify(obj));
-}
-
-btn.onclick = () => {
-    save (name.value, age.value)
-};
+// let {name, age} = document.forms.form;
+// let key = 'key';
+// let btn = document.getElementById('button');
+//
+// let save = (name, age) => {
+//     let obj = {name, age};
+//     localStorage.setItem(key, JSON.stringify(obj));
+// }
+//
+// btn.onclick = () => {
+//     save (name.value, age.value)
+// };
 
 // -створити форму з інпутами для model,type та volume автівки.
 //     при відпарвці форми об'єкти зберігаються в масиві в локальному сховищі.
