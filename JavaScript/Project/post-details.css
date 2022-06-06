@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background: rgba(232, 202, 160, 0.25);
+}
+.wrap2 {
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.div2 {
+    margin-top: 20px;
+    width: 1500px;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background: silver;
+}
+.div2:hover {
+    background: #d8e4ef;
+    transition: .3s;
+    transform: scaleX(1.001);
+}
+
+.postDiv {
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.commentDiv {
+    width:333px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background: silver;
+}
+.commentDiv:hover {
+    background: #d8e4ef;
+    transition: .3s;
+    transform: scaleX(1.01);
+}
