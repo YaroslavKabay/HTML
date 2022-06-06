@@ -6,41 +6,44 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
         let div1 = document.createElement('div');
         div1.classList.add('div1');
         div1.innerHTML = `
-                <h3>ID: ${value.id}</h3>
-                <h4>Name: ${value.name}</h4>
-                <h4>Username: ${value.username}</h4>
-                <h4>Email: ${value.email}</h4>
-                <h4>Street: ${value.address.street}</h4>
-                <h4>Suite: ${value.address.suite}</h4>
-                <h4>City: ${value.address.city}</h4>
-                <h4>Zipcode: ${value.address.zipcode}</h4>
-                <h4>Geo: ${value.address.geo}</h4>
-                <h4>Lat: ${value.address.geo.lat}</h4>
-                <h4>Lng: ${value.address.geo.lng}</h4>
-                <h4>Phone: ${value.phone}</h4>
-                <h4>Website: ${value.website}</h4>
-                <h4>Company Name: ${value.company.name}</h4>
-                <h4>CatchPhrase: ${value.company.catchPhrase}</h4>
-                <h4>Bs: ${value.company.bs}</h4>`
+                <h4>ID: ${value.id}</h4>
+                <h5>Name: ${value.name}</h5>
+                <h5>Username: ${value.username}</h5>
+                <h5>Email: ${value.email}</h5>
+                <h5>Street: ${value.address.street}</h5>
+                <h5>Suite: ${value.address.suite}</h5>
+                <h5>City: ${value.address.city}</h5>
+                <h5>Zipcode: ${value.address.zipcode}</h5>
+                <h5>Lat: ${value.address.geo.lat}</h5>
+                <h5>Lng: ${value.address.geo.lng}</h5>
+                <h5>Phone: ${value.phone}</h5>
+                <h5>Website: ${value.website}</h5>
+                <h5>Company Name: ${value.company.name}</h5>
+                <h5>CatchPhrase: ${value.company.catchPhrase}</h5>
+                <h5>Bs: ${value.company.bs}</h5>`
             wrap1.appendChild(div1);
             document.body.appendChild(wrap1);
 
 
         let button = document.createElement('button')
-        button.innerText = 'Posts';
-        div1.appendChild(button);
+        button.classList.add('button')
+        button.innerText = 'Click here to see posts';
+        document.body.appendChild(button);
 
         button.onclick = () => {
             fetch(`https://jsonplaceholder.typicode.com/users/${id}/posts`)
                 .then(response => response.json())
                 .then(value => {
                   wrapComments = document.createElement('div');
+                  wrapComments.classList.add('wrapComments');
                   div1.appendChild(wrapComments);
                     for (const element of value) {
                         let divComments = document.createElement('div');
-                        divComments.innerHTML = `<h4> Title: ${element.title}</h4>`;
+                        divComments.classList.add('divComments');
+                        divComments.innerHTML = `<h5> Title: ${element.title}</h5>`;
 
                         let btnComments = document.createElement('button')
+                        btnComments.classList.add('btn')
                         btnComments.innerText = 'Check more'
                         btnComments.onclick = function () {
                             location.href = 'post-details.html';
@@ -48,6 +51,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
                         };
                         divComments.appendChild(btnComments);
                         wrapComments.appendChild(divComments);
+                        document.body.appendChild(wrapComments);
                     }
                 })
         }
