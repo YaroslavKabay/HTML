@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    align-items:center;
+    margin: 0;
+    flex-direction: column;
+    background: rgba(232, 202, 160, 0.25);
+}
+.wrap1 {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.div1 {
+    margin: 10px;
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1px;
+
+}
+
+.button {
+    height: 50px;
+    width: 90%;
+    cursor: pointer;
+    background: silver;
+    border-radius: 15px;
+    border-color: goldenrod;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    font-size: large;
+}
+button:hover {
+    background: goldenrod;
+    transition: 1.5s;
+    transform: rotateY(10grad);
+    cursor: pointer;
+}
+.wrapComments {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+.divComments {
+    width: 285px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background: silver;
+
+}
+.divComments:hover {
+    background: #d8e4ef;
+    transition: .3s;
+    transform: scaleX(1.01);
+}
+
+.btn{
+    border-radius: 15px;
+    width: 130px;
+    height: 75px;
+    border-color: goldenrod;
+}
+
+
+.divComments h5 {
+    height: 100px;
+    display: flex;
+    font-size: 14px;
+}
