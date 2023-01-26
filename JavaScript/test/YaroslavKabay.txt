@@ -26,6 +26,7 @@ const calculateTeamFinanceReport = (salaries, team) => {
         totalSalary[itemSpecializtion] += salaries[itemSpecializtion]?.salary || 0
 
     })
+
     //****OR*****
     // for (const item of team) {
     //     const itemSpecializtion = item.specialization;
@@ -37,6 +38,7 @@ const calculateTeamFinanceReport = (salaries, team) => {
     //     totalSalary[itemSpecializtion] += salaries[itemSpecializtion]?.salary || 0
     //
     // }
+    //***********
 
     for (const item in totalSalary) {
         result[`totalBudget${item}`] = parseInt(totalSalary[item])
