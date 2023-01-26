@@ -136,48 +136,53 @@
 //         this.year = year;
 //         this.maxSpeed = maxSpeed;
 //         this.engine = engine;
-//         this.drive = function drive() {
-//             console.log(`їдемо зі швидкістю ${maxSpeed}`);
-//         }
-//         this.info = function info() {
-//             console.log(`
-//         model - ${this.model},
-//         year - ${this.year},
-//         brand - ${this.brand},
-//         maxSpeed - ${this.maxSpeed},
-//         engine - ${this.engine}`);
-//         }
-//         this.increaseMaxSpeed = function increaseMaxSpeed() {
-//             maxSpeed += newSpeed
-//             return maxSpeed
-//         }
-//         this.changeYear = function changeYear() {
-//             year = newValue
-//             return year
-//         }
-//         this.addDriver = function (driver) {
-//         this.driver = driver}
 //     }
+//
+//     drive() {
+//         console.log(`їдемо зі швидкістю ${this.maxSpeed}`);
+//     };
+//
+//     info() {
+//         for (const item in this) {
+//             console.log(`${item} - ${this[item]}`);
+//         }
+//     };
+//
+//     increaseMaxSpeed(newSpeed) {
+//         return this.maxSpeed += newSpeed
+//     };
+//
+//
+//     changeYear(newYear) {
+//          return this.year = newYear
+//     };
+//
+//     addDriver (driver) {
+//         this.driver = driver
+//         }
 // }
-// let fn = function(...user) {
-//     let arr = [];
-//     arr.push(...user)
-//     return arr
-// }
-// let car1 = new Car('S','Mersedes','2017',200 ,'nice',);
-// let array = fn(car1);
+//
+// // let fn = function(...user) {
+// //     let arr = [];
+// //     arr.push(...user)
+// //     return arr
+// // }
+// let car1 = new Car('S','Mersedes','2017', 200 ,'nice',);
+// // let array = fn(car1);
 // let newSpeed = 100;
-// let newValue = 2000;
+// let newYear = 2000;
 // let driver = {
 //     fullname: 'llalal',
 //     surrname: 'lalalalalalal'}
 //
-// console.log(array)
-// car1.drive()
-// car1.info()
-// console.log(car1.increaseMaxSpeed());
-// console.log(car1.changeYear());
+// // console.log(array)
+// // console.log(car1);
+// // car1.drive()
+// // car1.info()
+// console.log(car1.increaseMaxSpeed(5));
+// console.log(car1.changeYear(2000));
 // car1.addDriver('Petro');
+// console.log(car1);
 
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
@@ -229,45 +234,42 @@
 //     }
 // }
 // console.log(find(array));
-//
-//
-//
-//
+
 // варіант з заняття:
-//
-// function Sinderella (name, age, footSize) {
-//         this.name = name;
-//         this.age = age;
-//         this.footSize = footSize;
-//
-// }
-// let arrCinderella = [
-//      new Sinderella('anna',22,36),
-//      new Sinderella('lilia',19,39),
-//     new Sinderella('stas',123,56),
-//      new Sinderella('roman',23,7),
-//     new Sinderella('anri',32,24),
-//      new Sinderella('dmytro',29,45),
-//    new Prince('lilia',19,39)
-// ];
-//
-// function Prince (name, age, footSize) {
-//     this.name = name;
-//     this.age = age;
-//     this.footSize = footSize;
-// }
-// let NewPrince = new Prince( 'Petro', 30, 56)
-//
-// let find = (arrCind,prince) => {
-//     for (const item of arrCind) {
-//         if(item.footSize === prince.footSize){
-//             return `${item.name}`
-//         }
-//     }
-// }
-// console.log(find(arrCinderella, NewPrince));
-//
-//
-// let cind = arrCinderella.find (value =>value.footSize === NewPrince.footSize);
-// console.log(cind);
+
+function Sinderella (name, age, footSize) {
+        this.name = name;
+        this.age = age;
+        this.footSize = footSize;
+
+}
+let arrCinderella = [
+     new Sinderella('anna',22,36),
+     new Sinderella('lilia',19,39),
+     new Sinderella('stas',123,56),
+     new Sinderella('roman',23,7),
+     new Sinderella('anri',32,24),
+     new Sinderella('dmytro',29,45),
+     new Prince('lilia',19,39)
+];
+
+function Prince (name, age, footSize) {
+    this.name = name;
+    this.age = age;
+    this.footSize = footSize;
+}
+let NewPrince = new Prince( 'Petro', 30, 56)
+
+let find = (arrCind,prince) => {
+    for (const item of arrCind) {
+        if(item.footSize === prince.footSize){
+            return `${item.name}`
+        }
+    }
+}
+console.log(find(arrCinderella, NewPrince));
+
+
+let cind = arrCinderella.find (value =>value.footSize === NewPrince.footSize);
+console.log(cind);
 

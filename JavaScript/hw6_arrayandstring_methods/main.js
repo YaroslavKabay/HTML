@@ -138,7 +138,7 @@
 //or
 // console.log(deck.find(card => card.value === 'ace' && card.cardSuit ==='spade'))
 //
-//
+
 // let filter = deck.filter(function (card){
 //     if (card.value === '6'){
 //         return true
@@ -149,7 +149,7 @@
 //or
 // console.log(deck.filter(card => card.value === '6'));
 //
-//
+
 // console.log(deck.filter(card => card.color === 'red'));
 //
 //
